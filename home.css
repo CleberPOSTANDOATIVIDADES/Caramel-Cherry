@@ -49,6 +49,7 @@ body{
 .logo img{
 
     width:4rem;
+
     height:4rem;
 
     border-radius:50%;
@@ -58,6 +59,7 @@ body{
 .menu{
 
     display:flex;
+
     align-items:center;
 
     margin-left:2rem;
@@ -1230,4 +1232,23 @@ footer h2{
 
     transform:scale(1.15);
 
+}
+/* Code novo pra landing */
+.landing{
+    
+    transition: 0.5s;
+    
+    text-decoration: none;
+
+    font-size:  1.5vh;
+    
+    color: #740413;
+}
+.landing:hover{
+
+    transition: 0.7s;
+    
+    font-size: 1.8vh;
+    
+    color: #2F221D;
 }
